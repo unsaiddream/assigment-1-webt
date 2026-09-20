@@ -1,0 +1,86 @@
+@import url('../styles.css');
+
+#grades-title {
+    color: #ffe28a;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0d1b45;
+}
+
+tbody tr {
+    background-color: #1c377d;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #294b9b;
+}
+
+tbody .highlight-row {
+    background-color: #ffe28a;
+    color: #13265C;
+}
+
+.feedback-form {
+    width: 420px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #1c377d;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.feedback-form h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.radio-label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffe28a;
+    color: #13265C;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f5cc50;
+}
